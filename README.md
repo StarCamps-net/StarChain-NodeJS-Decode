@@ -39,7 +39,11 @@ If you encode a valid URL, such as aHR0cHM6Ly9iaXQubHkvNGRpTXUzNA==, you should 
 "*000000000000000*315e0280b2d75e83fa0676a23ab18c052d0aa2682c09f754ab56f0346b46723f*160222844860000*7d6445117f6b4fb8fbc9dbf4632f984de12ef16defd3c7c798e2d76f8f4ab0b5*999999999999999*7bbc83f570350a1cb94cce286cb85c68a64aa637f76d07bb02dbe4a6e83fd99c*\n"
 
 Troubleshooting
+
 401 Unauthorized: Ensure that the Authorization header is correctly set with the Bearer token.
+
 400 Bad Request: Ensure that the encoded query parameter is provided and correctly Base64 encoded.
+
 500 Internal Server Error: Check the server logs for more details on what went wrong.
+
 By following these steps, you should be able to successfully call the /decode endpoint using Postman.
